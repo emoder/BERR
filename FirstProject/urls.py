@@ -10,7 +10,7 @@ import simulation.views
 
 urlpatterns = patterns('',
     # Examples:
-     url(r'^$', 'FirstProject.simulation.views.home', name='home'),
+     url(r'^$', 'simulation.views.home', name='home'),
     # url(r'^FirstProject/', include('FirstProject.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
